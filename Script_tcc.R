@@ -44,7 +44,7 @@ args <- c("--auto", "--maxiterate", "1000", arquivo_entrada2, ">", arquivo_saida
 system2(comando_mafft, args = args)
 
 
-# Alinhamento das sequências de Anopheles
+# Alinhamento das sequências de Aedes
 
 arquivo_entrada3 <- "/mnt/datos/Pasantia_Lais/nova_abordagem/irs_Ano.fasta"
 arquivo_saida3 <- "alinhamento_irs_ano"
